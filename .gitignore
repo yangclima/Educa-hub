@@ -117,6 +117,3 @@ Thumbs.db
 !.gitignore
 !.nvmrc
 !.phpcs.xml.dist
-
-# personal files
-plano-de-acao.md

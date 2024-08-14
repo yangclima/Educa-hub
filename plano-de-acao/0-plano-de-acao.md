@@ -1,14 +1,12 @@
-### 1. **Definição do Problema e Requisitos**
+### 1. **Definição do Problema e Requisitos** (OK)
 
-**a. Identificar o Problema:** Entenda claramente qual problema a plataforma EducaHub visa resolver. Isso pode ser feito conversando com educadores, administradores escolares e outros stakeholders para reunir suas necessidades e desafios.
+**a. Identificar o Problema (OK):** Entenda claramente qual problema a plataforma EducaHub visa resolver. Isso pode ser feito conversando com educadores, administradores escolares e outros stakeholders para reunir suas necessidades e desafios.
 
-**b. Definir Requisitos:** Com base nas necessidades identificadas, crie uma lista de requisitos funcionais e não funcionais para o sistema. Estes podem incluir funcionalidades específicas, como gestão de turmas e comunicação, bem como requisitos de desempenho e segurança.
+**b. Definir Requisitos (OK):** Com base nas necessidades identificadas, crie uma lista de requisitos funcionais e não funcionais para o sistema. Estes podem incluir funcionalidades específicas, como gestão de turmas e comunicação, bem como requisitos de desempenho e segurança.
 
 ### 2. **Pesquisa e Planejamento**
 
-**a. Pesquisa de Mercado:** Investigue plataformas educacionais existentes para entender o que já está disponível e onde há oportunidades para inovação. Analise suas funcionalidades, pontos fortes e fracos.
-
-**b. Planejamento do Projeto:** Crie um plano de projeto que inclua o cronograma, marcos principais, e recursos necessários. Decida sobre as tecnologias que você usará e como você dividirá o projeto em etapas.
+**a. Planejamento do Projeto:** Crie um plano de projeto que inclua o cronograma, marcos principais, e recursos necessários. Decida sobre as tecnologias que você usará e como você dividirá o projeto em etapas.
 
 ### 3. **Criação de Protótipos e Design**
 
