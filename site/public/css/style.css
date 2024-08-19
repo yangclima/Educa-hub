@@ -1,0 +1,223 @@
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+#loader {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    position: absolute;
+    z-index: 9999;
+}
+
+@keyframes animacao {
+    0% {}
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#loader span {
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    border: 12px solid;
+    border-color: #4A90E2 #4A90E2 #dadada #dadada;
+    animation: animacao linear 1s infinite;
+}
+
+
+header {
+    /* Fixed on top */
+    position: fixed;
+    top: 0;
+
+    width: 100%;
+    height: 4rem;
+    padding: 1rem;
+    max-height: 4rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    box-sizing: border-box;
+
+    background-color: #4A90E2;
+}
+    .header-nav {
+            margin: auto;
+        }
+
+        .header-nav .nav-link{
+            color: #ffff;
+        }
+
+        .header-nav .nav-item{
+            border: 2px solid rgba(255, 255, 255, 0);
+        }
+
+        .header-nav .nav-item .active{
+            border-bottom: 2px solid #ffff;
+        }
+
+        .header-nav .nav-item:hover {
+            border-bottom: 2px solid #ffff;
+        }
+
+
+/* Button default class */
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+    /* Outline button - Color Light */
+    .btn-outline-light {
+        border: 2px #ffff solid;
+        background-color: transparent;
+        color: #ffff;
+        font-weight: bold;
+    }
+
+    .btn-outline-light:hover {
+        border-color: #fffa;
+        color: #fffa;
+    }
+
+    /* Basic button - Color Primary */
+    .btn-primary {
+        border: none;
+        background-color: #ffff;
+        color: #4A90E2;
+        font-weight: bold;
+    }
+
+    .btn-primary:hover {
+        background-color: #fffa;
+    }
+
+        .btn-login {
+            margin-right: 1rem;
+            }
+
+
+aside {
+    /* Fixed on top */
+    position: fixed;
+    top: 4rem;
+    
+    width: 15rem;
+    height: 100vh;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    
+    box-sizing: border-box;
+
+    background-color: #fafafa;
+
+    box-shadow: 2px 0px 20px -10px rgba(0, 0, 0, 0.5);
+}
+
+.aside-nav {
+        padding-inline-start: 0 ;
+    }
+    
+        .aside-nav .nav-item {
+            padding: 1rem;
+            font-size: 16px !important;
+            border-radius: 0.3rem;
+            display: block;
+        }
+
+        .aside-nav .nav-item:hover:not(.active) {
+            background-color: #dadada;
+            transition: all 0.3s;
+        }
+
+        .aside-nav .nav-item:hover {
+            cursor: pointer;
+        }
+
+        .aside-nav .active {
+            background-color: #4A90E2;
+        }
+
+        .aside-nav .nav-link-text {
+            position: relative;
+            left: 0.2rem;
+            font-weight: 300;
+        }
+
+
+
+.nav-v {
+    display: flex;
+    flex-direction: column;
+} 
+
+    .nav-v .nav-item {
+        margin: 0.5rem 0 ;
+    }
+
+.nav-h {
+    display: flex;
+    flex-direction: row;
+}
+
+    .nav-h .nav-item {
+        margin: 0 1rem;
+    }
+
+.nav-link {
+    text-decoration: none;
+    color: unset;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+/* Default brand class */
+.brand {
+    text-decoration: none;
+    color: white;
+
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+main {
+    padding: 20px;
+    position:fixed;
+    overflow: scroll;
+}
+
+#dashboard {
+    color: red;
+}
+
+#calendario {
+    color: blue;
+}
+
+#relatorios {
+    color: yellow;
+}
+
+#configuracoes {
+    color: green;
+}
