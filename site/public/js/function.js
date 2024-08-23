@@ -60,14 +60,15 @@ function switchSection(){
 setTimeout(() => { document.getElementById('loader').style.display = 'none'; }, 2000);
 
 window.addEventListener('load', () => {
+    // Posicio
     setMainPosition();
+    window.addEventListener('resize', setMainPosition);
     
     if(window.sections && window.active){
         setActive();
         switchSection();
     }
 
-    window.addEventListener('resize', setMainPosition);
 });
 
 

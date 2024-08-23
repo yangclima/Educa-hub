@@ -4,13 +4,7 @@
 - **Localização:** Fixa no topo da página.
 - **Elementos:**
   - **Logo do EducaHub:** Localizado à esquerda, representando educação e tecnologia.
-  - **Links de Navegação:** Centralizados ou alinhados à direita, com os seguintes links:
-    - Home
-    - Cursos
-    - Professores
-    - Alunos
-    - Suporte
-  - **Botão de Login:** Posicionado à direita.
+  - **Links de Navegação:** Centralizados ou alinhados à direita, itens serão diferentes dependendo do usuário
 
 ## 2. Painel Lateral (Sidebar)
 - **Localização:** Fixa à esquerda, ocultável em dispositivos móveis.
@@ -18,7 +12,6 @@
   - **Perfil do Usuário:** Mostra a foto e o nome do usuário no topo.
   - **Menu de Navegação:**
     - Dashboard
-    - Aulas
     - Calendário
     - Relatórios
     - Configurações
@@ -30,10 +23,6 @@
     - **Estatísticas de Alunos:** Gráficos de desempenho, frequência, e participação.
     - **Próximas Aulas:** Listagem de próximas aulas e eventos.
     - **Tarefas e Atividades:** Tarefas pendentes e enviadas.
-  - **Cursos:** Mostra cards de cursos com:
-    - Imagens
-    - Títulos
-    - Descrições breves
 
 ## 4. Rodapé (Footer)
 - **Localização:** Fixa no final da página.
